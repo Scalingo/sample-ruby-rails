@@ -9,7 +9,7 @@ services:
       - 3000:3000
     environment:
       PORT: 3000
-      RAILS_ENV: production
+      RAILS_ENV: development
       BUNDLE_BIN: "/usr/src/app/vendor/.bundle/ruby/2.7.0/bin"
       BUNDLE_PATH: "/usr/src/app/vendor/.bundle/ruby/2.7.0"
       BUNDLE_APP_CONFIG: "/usr/src/app/.bundle"
