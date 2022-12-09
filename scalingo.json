@@ -6,7 +6,7 @@
   "website": "https://ruby-rails.is-easy-on-scalingo.com/",
   "formation": {
     "web": {
-      "amount": 2,
+      "amount": 1,
       "size": "S"
     }
   }
