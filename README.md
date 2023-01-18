@@ -20,9 +20,9 @@ And that's it!
 ## Running Locally
 
 ```shell
-docker-compose build
-docker-compose run --rm web bundle install
-docker-compose up
+docker compose build
+docker compose run --rm web bundle install
+docker compose up
 ```
 
 The application is available at: http://localhost:3000/
