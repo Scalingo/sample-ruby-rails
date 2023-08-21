@@ -1,28 +1,24 @@
-# Sample Application with Ruby and Rails framework
+# README
 
-This sample is running on: https://ruby-rails.is-easy-on-scalingo.com/
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Deploy via Git
+Things you may want to cover:
 
-Create an application on https://scalingo.com, then:
+* Ruby version
 
-```shell
-scalingo -a my-app git-setup
-git push scalingo master
-```
+* System dependencies
 
-And that's it!
+* Configuration
 
-## Deploy via One-Click
+* Database creation
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+* Database initialization
 
-## Running Locally
+* How to run the test suite
 
-```shell
-docker compose build
-docker compose run --rm web bundle install
-docker compose up
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-The application is available at: http://localhost:3000/
+* Deployment instructions
+
+* ...

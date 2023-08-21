@@ -10,7 +10,7 @@ services:
     environment:
       PORT: 3000
       RAILS_ENV: development
-      BUNDLE_BIN: "/usr/src/app/vendor/.bundle/ruby/3.1.0/bin"
-      BUNDLE_PATH: "/usr/src/app/vendor/.bundle/ruby/3.1.0"
+      BUNDLE_BIN: "/usr/src/app/vendor/.bundle/ruby/3.2.0/bin"
+      BUNDLE_PATH: "/usr/src/app/vendor/.bundle/ruby/3.2.0"
       BUNDLE_APP_CONFIG: "/usr/src/app/.bundle"
     command: bundle exec rails server -b 0.0.0.0 -p 3000 -e development
