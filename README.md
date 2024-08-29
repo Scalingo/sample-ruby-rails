@@ -1,24 +1,30 @@
-# README
+# Sample Application with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby Version 3.2.2
 
-Things you may want to cover:
+This sample is running on: https://ruby-rails.is-easy-on-scalingo.com/
 
-* Ruby version
+## Deploy via Git
 
-* System dependencies
+Create an application on https://scalingo.com, then:
 
-* Configuration
+```shell
+scalingo --app my-app git-setup
+git push scalingo master
+```
 
-* Database creation
+And that's it!
 
-* Database initialization
+## Deploy via One-Click
 
-* How to run the test suite
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/Scalingo/sample-ruby-rails#master)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running Locally
 
-* Deployment instructions
+```shell
+docker compose run web bundle install
+docker compose up
+```
 
-* ...
+The app listens by default on the port 8080 or the one defined in the `PORT`
+environment variable.
