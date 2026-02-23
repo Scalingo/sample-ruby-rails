@@ -1,0 +1,5 @@
+# Dependabot reviewers assignment
+
+Gemfile @scalingo/devrel
+Gemfile.lock @scalingo/devrel
+package.json @scalingo/devrel
