@@ -1,6 +1,6 @@
 # Sample Application with Ruby on Rails
 
-Ruby Version 4.0.1
+Ruby Version 4.0.2
 
 This sample is running on: https://ruby-rails.is-easy-on-scalingo.com/
 
