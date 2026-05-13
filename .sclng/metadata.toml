@@ -1,0 +1,7 @@
+dependencies = []
+description = "Ruby on Rails sample application"
+languages = ["dockerfile", "ruby"]
+owner = "devrel@scalingo.com"
+team = "devrel"
+version = "1.0.2"
+tier = 2
