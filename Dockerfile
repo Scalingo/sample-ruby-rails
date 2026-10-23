@@ -1,4 +1,4 @@
-FROM ruby:4.0.6
+FROM ruby:4.0.9
 
 LABEL maintainer devrel@scalingo.com
 
